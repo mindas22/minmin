@@ -1,6 +1,16 @@
 {
+  "name": "minmin",
+  "version": "1.0.0",
+  "description": "Starter template for a VuePress site",
+  "author": "Mindaugas Lickus <mindaugas@mintis.net>",
+  "license": "MIT",
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "build": "vuepress build"
+  },
+  "devDependencies": {
+    "vuepress": "^0.3.1"
+  },
+  "dependencies": {
+    "npm": "^5.8.0"
   }
 }

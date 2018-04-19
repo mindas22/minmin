@@ -5,7 +5,8 @@
   "author": "Mindaugas Lickus <mindaugas@mintis.net>",
   "license": "MIT",
   "scripts": {
-    "build": "vuepress build"
+    "build": "vuepress build",
+    "docs:dev": "vuepress dev docs"
   },
   "devDependencies": {
     "vuepress": "^0.3.1"
